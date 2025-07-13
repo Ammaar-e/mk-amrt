@@ -1,5 +1,7 @@
 site_name: AMRT
 site_url: https://docs.amrt.ca/
+repo_url: https://github.com/ammaar-e/mk-amrt
+repo_name: ammaar-e/mk-amrt
 theme:
   name: material
   palette:
@@ -24,10 +26,17 @@ theme:
     - navigation.tabs
     - navigation.path
     - navigation.path
+    - navigation.footer
 ##
 plugins:
   - search
   - privacy
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: ammaar-e/mk-amrt
+      branch: main
+  - git-authors
 ##
 extra_css:
   - stylesheets/extra.css
@@ -61,6 +70,14 @@ extra:
       - manage
       - accept
       - reject 
+  social:
+    - icon: fontawesome/brands/discord
+      name: Ammaar's Profile
+      link: https://discordapp.com/users/543249594352664615
+    - icon: fontawesome/brands/github
+      name: Ammaar's GitHub
+      link: https://github.com/Ammaar-e
+
 ##
 copyright: >
   Copyright &copy; 2025 AMRT Development Inc. –
