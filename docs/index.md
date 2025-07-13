@@ -1,3 +1,10 @@
+---
+title: Home
+hide:
+  - navigation
+  - toc
+---
+
 # Welcome to MkDocs
 
 For full documentation hi visit [mkdocs.org](https://www.mkdocs.org).
